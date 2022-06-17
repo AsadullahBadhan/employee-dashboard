@@ -29,7 +29,7 @@ function App() {
       <div className="employee-container">
         <Summary employee={employee} employees={employees}></Summary>
         {
-          employees.map(employees => <Employees employees={employees} handlePayment={handlePayment}></Employees>)
+          employees.map(employees => <Employees employees={employees} key={employees.id} handlePayment={handlePayment}></Employees>)
         }
       </div>
     </div>
