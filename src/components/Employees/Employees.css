@@ -35,7 +35,8 @@
   border: none;
   background-color: #228bdb;
   color: white;
+  font-size: 14px;
   font-weight: 600;
-  border-radius: 20px;
+  border-radius: 15px;
   cursor: pointer;
 }

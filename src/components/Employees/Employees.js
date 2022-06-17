@@ -2,8 +2,7 @@ import React from 'react';
 import './Employees.css';
 
 const Employees = (props) => {
-  const { name, image, position, salary, email, phone } = props.employee;
-  console.log(props.employee)
+  const { name, image, position, salary, email, phone } = props.employees;
 
   return (
     <div className='employee'>
@@ -16,9 +15,13 @@ const Employees = (props) => {
         <p>{phone}</p>
         <p>{position}</p>
       </div>
-      <h4 className='salary'>{salary}</h4>
-      <button className='pay-btn'>Pay</button>
-    </div>
+      <h4 className='salary'>${salary}</h4>
+      <button className='pay-btn' onClick={(e) => {
+        props.handlePayment(props.employees);
+        e.currentTarget.disabled = true;
+      }
+      }>+ Pay</button>
+    </div >
   );
 };
 
