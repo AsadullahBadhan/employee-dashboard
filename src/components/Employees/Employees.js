@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Employees.css';
 
 const Employees = (props) => {
   const { name, image, position, salary, email, phone } = props.employees;
+  const [buttonText, setButtonText] = useState('+ pay');
 
   return (
     <div className='employee'>
@@ -19,8 +20,10 @@ const Employees = (props) => {
       <button className='pay-btn' onClick={(e) => {
         props.handlePayment(props.employees);
         e.currentTarget.disabled = true;
+        e.currentTarget.style.backgroundColor = 'green';
+        setButtonText('Paid');
       }
-      }>+ Pay</button>
+      }>{buttonText}</button>
     </div >
   );
 };

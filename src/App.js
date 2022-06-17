@@ -27,7 +27,7 @@ function App() {
       </header>
       <Sidebar></Sidebar>
       <div className="employee-container">
-        <Summary employee={employee}></Summary>
+        <Summary employee={employee} employees={employees}></Summary>
         {
           employees.map(employees => <Employees employees={employees} handlePayment={handlePayment}></Employees>)
         }
