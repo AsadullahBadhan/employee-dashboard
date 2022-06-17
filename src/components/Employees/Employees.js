@@ -1,18 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Employees.css';
-import employeeData from '../../data/employeeData.json'
 
-const Employees = () => {
-  const [employee, setEmployee] = useState([]);
+const Employees = (props) => {
+  const { name } = props.employee;
+  console.log(name)
 
-  useEffect(() => {
-    setEmployee(employeeData)
-  }, [])
-
-  console.log(employee)
   return (
     <div className='employee'>
-
+      <h3>{name}</h3>
     </div>
   );
 };
