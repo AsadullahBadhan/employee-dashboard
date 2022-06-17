@@ -6,7 +6,7 @@ const Sidebar = () => {
     <div className='sidebar'>
       <nav>
         <div className="manager">
-          <img src='https://i.postimg.cc/6QzHMqds/male4.jpg' alt="manager" />
+          <img src='https://www.thegeekpub.com/wp-content/uploads/2016/01/Role-of-an-IT-Manager.jpg' alt="manager" />
           <h3 className="name">Asadullah Badhan</h3>
           <p className='position'><small>Manager</small></p>
         </div>

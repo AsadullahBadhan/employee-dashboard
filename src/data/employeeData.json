@@ -6,7 +6,7 @@
     "phone": "345-316-7713",
     "email": "rtrye1@youku.com",
     "position": "Senior Sales Associate",
-    "salary": 147879,
+    "salary": 150000,
     "gender": "Male"
   },
   {
@@ -15,8 +15,8 @@
     "image": "https://i.postimg.cc/855vNPxV/female2.jpg",
     "phone": "777-897-8033",
     "email": "mpasek0@over-blog.com",
-    "position": "Systems Administrator I",
-    "salary": 63650,
+    "position": "Systems Administrator",
+    "salary": 90000,
     "gender": "Female"
   },
   {
@@ -25,8 +25,8 @@
     "image": "https://i.postimg.cc/JzLPmZxV/female3.jpg",
     "phone": "565-365-1862",
     "email": "gelman2@usgs.gov",
-    "position": "Professor",
-    "salary": 88621,
+    "position": "R&D",
+    "salary": 80000,
     "gender": "Female"
   },
   {
@@ -36,7 +36,7 @@
     "phone": "156-691-5006",
     "email": "jguttridge3@photobucket.com",
     "position": "Product Engineer",
-    "salary": 119131,
+    "salary": 120000,
     "gender": "Female"
   },
   {
@@ -45,8 +45,8 @@
     "image": "https://i.postimg.cc/Y9qP7Ypq/male2.jpg",
     "phone": "209-484-6306",
     "email": "amoorrud4@hhs.gov",
-    "position": "Software Test Engineer I",
-    "salary": 135667,
+    "position": "Software Test Engineer",
+    "salary": 135000,
     "gender": "Male"
   },
   {
@@ -56,7 +56,7 @@
     "phone": "629-677-8309",
     "email": "nmacgauhy5@ebay.co.uk",
     "position": "Senior Cost Accountant",
-    "salary": 113275,
+    "salary": 115000,
     "gender": "Male"
   },
   {
@@ -66,7 +66,7 @@
     "phone": "919-652-8957",
     "email": "dbaiss6@dell.com",
     "position": "Help Desk Technician",
-    "salary": 196095,
+    "salary": 36000,
     "gender": "Female"
   },
   {
@@ -76,7 +76,7 @@
     "phone": "186-192-6709",
     "email": "acorck7@psu.edu",
     "position": "Assistant Media Planner",
-    "salary": 34533,
+    "salary": 45000,
     "gender": "Female"
   },
   {
@@ -85,8 +85,8 @@
     "image": "https://image.cnbcfm.com/api/v1/image/106989947-1639601514457-gettyimages-1210332926-smallbiz_2020_3695.jpeg?v=1639601692",
     "phone": "253-720-1795",
     "email": "mlannon8@163.com",
-    "position": "Software Engineer III",
-    "salary": 162923,
+    "position": "Software Engineer I",
+    "salary": 160000,
     "gender": "Female"
   },
   {
@@ -95,8 +95,8 @@
     "image": "https://i.postimg.cc/mkkKYMq6/female9.jpg",
     "phone": "553-647-7532",
     "email": "abirt9@github.com",
-    "position": "Budget/Accounting Analyst I",
-    "salary": 64297,
+    "position": "Budget/Accounting Analyst",
+    "salary": 70000,
     "gender": "Female"
   },
   {
@@ -106,7 +106,7 @@
     "phone": "415-810-6546",
     "email": "vshoarda@eepurl.com",
     "position": "Legal Assistant",
-    "salary": 92108,
+    "salary": 92000,
     "gender": "Male"
   },
   {
@@ -115,8 +115,8 @@
     "image": "https://i.postimg.cc/1RgQN1QR/male5.jpg",
     "phone": "456-782-2034",
     "email": "tlyptrattb@businessinsider.com",
-    "position": "Programmer III",
-    "salary": 138582,
+    "position": "Product Designer",
+    "salary": 138000,
     "gender": "Male"
   },
   {
@@ -125,8 +125,8 @@
     "image": "https://i.postimg.cc/sgzd8BZ1/male6.jpg",
     "phone": "738-650-7421",
     "email": "rtarplyc@oakley.com",
-    "position": "Paralegal",
-    "salary": 109254,
+    "position": "Front End Engineer",
+    "salary": 109000,
     "gender": "Male"
   },
   {
@@ -136,7 +136,7 @@
     "phone": "661-627-0211",
     "email": "bnafzgerd@ox.ac.uk",
     "position": "Recruiter",
-    "salary": 33814,
+    "salary": 70000,
     "gender": "Male"
   },
   {
@@ -146,7 +146,7 @@
     "phone": "951-293-4698",
     "email": "ewillcote@drupal.org",
     "position": "Software Engineer II",
-    "salary": 138016,
+    "salary": 138000,
     "gender": "Male"
   }
 ]
