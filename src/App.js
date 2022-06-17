@@ -19,9 +19,11 @@ function App() {
         <img src={logo} alt="" />
       </header>
       <Sidebar></Sidebar>
-      {
-        employee.map(employee => <Employees employee={employee}></Employees>)
-      }
+      <div className="employee-container">
+        {
+          employee.map(employee => <Employees employee={employee}></Employees>)
+        }
+      </div>
     </div>
   );
 }

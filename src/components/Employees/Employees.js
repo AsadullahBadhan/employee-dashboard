@@ -2,12 +2,17 @@ import React from 'react';
 import './Employees.css';
 
 const Employees = (props) => {
-  const { name } = props.employee;
-  console.log(name)
+  const { name, image, position, salary, email } = props.employee;
+  console.log(props.employee)
 
   return (
     <div className='employee'>
-      <h3>{name}</h3>
+      <div className="profile">
+        <img src={image} alt={name} />
+        <h3>{name}s</h3>
+      </div>
+      <h4 className='position'>{position}</h4>
+      <button className='payBtn'>Pay</button>
     </div>
   );
 };
